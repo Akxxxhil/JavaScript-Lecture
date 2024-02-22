@@ -117,3 +117,11 @@ let mapping2=filterd.map((num)=>{
 return {ans:num}
 })
 console.log(mapping2);
+
+
+//Reduce the array
+let ar=[1,2,3,4,5]
+let totalsum=ar.reduce((accumulator,currentvalue)=>{
+  return accumulator+currentvalue
+},0)
+console.log(totalsum);
